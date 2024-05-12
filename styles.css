@@ -32,13 +32,15 @@ body {
 .cowboy{
     background-color: #FFC94A;
     grid-column: span 2;
+    grid-area: 1 / 1 / 2 / 3;
 }
 .book{
-    background-color: #F3EEEA;
+    background-color: #F3EEEA80;
     grid-row: span 2;
+    grid-area: 1 / 2 / 3 / 4;
 }
 .astronaut{
     background-color: #3C5B6F;
     grid-column: span 2;
-    order: 1;
+    grid-area: 2 / 1 / 3 / 3;
 }
