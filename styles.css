@@ -1,6 +1,15 @@
+h1{
+    font-size: 100px;
+}
+h1, h2{
+    font-family: "SF Pro Display", serif;
+    text-align: center;
+    color: #F3EEEA;
+}
 body {
     padding: 0;
     margin: 0;
+    background-color: #6DC5D1;
 }
 
 .container {
@@ -19,4 +28,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.cowboy{
+    background-color: #FFC94A;
+    grid-column: span 2;
+}
+.book{
+    background-color: #F3EEEA;
+    grid-row: span 2;
+}
+.astronaut{
+    background-color: #3C5B6F;
+    grid-column: span 2;
+    order: 1;
 }
